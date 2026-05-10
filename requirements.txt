@@ -5,3 +5,5 @@ nvidia-isaacsim
 omniverse
 react
 torch
+framer-motion
+lucide-react
