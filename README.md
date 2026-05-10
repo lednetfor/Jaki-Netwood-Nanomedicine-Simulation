@@ -1,67 +1,53 @@
-# 🧬 Jaki-Netwood: AI Nanomedicine OS v4.1
+# 🧬 Jaki-Netwood: AI Nanomedicine Simulation OS v4.1
 
 <div align="center">
-  <img src="https://classic_ui.png" alt="Neon Jaki Logo" width="300px"/>
+  <img src="https://img.icons8.com/nolan/128/biotech.png" alt="Neon Jaki Logo" width="100px"/>
   <br/>
-  <p><strong>Quantum Biometric Interface - Deep Space Medical Division</strong></p>
-  <p><em>Controlling and monitoring magnetic nanorobots using advanced AI sensor arrays.</em></p>
+  <h2 style="color: #00ffcc; font-family: monospace; letter-spacing: 3px;">QUANTUM BIOMETRIC INTERFACE</h2>
+  <p><em>Controlling magnetic nanorobots using advanced AI sensor arrays.</em></p>
 </div>
 
 ---
 
-## ⚡ Interactive Neural Dashboard
+## 📡 Neural Link Dashboard: Baseline Mode
 
 <div align="center">
-  <img src="https://example.com/classic_ui.png" alt="Neon Gradio UI Screenshot" width="100%" style="border: 2px solid #00ffcc; border-radius: 10px; box-shadow: 0 0 10px #00ffcc;"/>
+  <img src="image_c1008e.png" alt="Classic UI" width="100%" style="border: 2px solid #575757; border-radius: 10px;"/>
   <br/>
-  <p><strong>Neon Bio-Pulse Visualization & Control Panel</strong></p>
+  <p><strong>Standard Waveform Analysis (Baseline Monitoring)</strong></p>
 </div>
 
 ---
 
-## 🚀 Key Quantum Modules
+## 🚀 Active Mission Feed: Sci-Fi Neon Mode
 
-### 🛠️ Biometric Sensors
-* **Thermal Senser:** Monitors core tissue temperature with high-fidelity thermal imagery.
-* **pH Analyzer:** Detects acidity markers for potential target identification.
-
-### 📡 Neural Link Feed
-* **Waveform Analysis:** Real-time visualization of magnetic propulsion and biometric signals.
-* **System Log:** Live diagnostics and mission status updates.
-* **Threat Assessment:** AI-driven alert level system for target verification.
+<div align="center">
+  <img src="image_c08f94.png" alt="Neon Sci-Fi UI" width="100%" style="border: 2px solid #00ffcc; border-radius: 10px; box-shadow: 0 0 15px #00ffcc;"/>
+  <br/>
+  <p><strong>Target Acquisition & Bio-Pulse Frequency Sync (Cyberpunk Interface)</strong></p>
+</div>
 
 ---
 
-## 🛠️ Technological Stack (AI-Driven)
+## 🛠️ Technological Stack
 
-This project uses the same stack as the most advanced quantum research labs (as listed in `requirements.txt`):
+This project is built using professional-grade AI and simulation tools:
 
-* **Computational Foundation:** `numpy`, `scipy`
-* **AI Engine:** `torch` (PyTorch)
-* **Simulation Environment:** `nvidia-isaacsim`, `omniverse`
-* **Neural UI:** `gradio`
-* **Dashboard Visuals:** `matplotlib`
+* **Core Logic:** `numpy`, `scipy`, `torch` (PyTorch)
+* **Visuals & UI:** `gradio`, `matplotlib`
+* **Future Simulation:** Ready for `nvidia-isaacsim` & `omniverse` integration.
 
 ---
 
-## 📡 Live Deployment (Colab Edition)
+## 💡 How to Run on Google Colab
 
-Experience the nanomedicine interface yourself:
-
-1.  Open the [Google Colab Notebook](https://colab.research.google.com/drive/example).
-2.  Install the quantum libraries: `!pip install gradio numpy matplotlib torch`.
-3.  Execute the main control script.
-4.  Launch the Neural Link at the generated `.gradio.live` public URL.
+1. Open a new notebook.
+2. Install dependencies: `!pip install gradio numpy matplotlib torch`.
+3. Run the controller script to generate your live `.gradio.live` link.
 
 ---
 
 <div align="center">
-  <p><strong>Project developed for the Deep Space Medical Innovation Challenge.</strong></p>
-  <p>Powered by Advanced Magnetic Navigation Systems.</p>
+  <p><strong>Developed for the Deep Space Medical Innovation Challenge.</strong></p>
+  <p>POWERED BY QUANTUM AI | © 2026 Jaki-Netwood Corp.</p>
 </div>
----
-
-## 🚀 Getting Started
-1. **Clone the Repo:**
-   ```bash
-   git clone [https://github.com/lednetfor/Jaki-Netwood-Nanomedicine-Simulation.git](https://github.com/lednetfor/Jaki-Netwood-Nanomedicine-Simulation.git)
