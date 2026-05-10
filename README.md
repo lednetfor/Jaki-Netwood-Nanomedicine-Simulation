@@ -1,28 +1,46 @@
-# 🧬 Jaki-Netwood: AI Nanomedicine Simulation OS v4.1
+# 🧬 Jaki-Netwood: AI-Driven Nanorobot Simulation
 
 <div align="center">
-  <img src="https://img.icons8.com/nolan/128/biotech.png" alt="Neon Jaki Logo" width="100px"/>
+  <img src="nanoMnetic.png" alt="Jaki-Netwood AI Simulation Overview" width="100%" style="border-radius: 15px; box-shadow: 0 0 20px rgba(0,255,204,0.3);"/>
   <br/>
-  <h2 style="color: #00ffcc; font-family: monospace; letter-spacing: 3px;">QUANTUM BIOMETRIC INTERFACE</h2>
-  <p><em>Controlling magnetic nanorobots using advanced AI sensor arrays.</em></p>
+  <p><strong>Real-time Neural Network Control & Target Optimization in NVIDIA Isaac Sim</strong></p>
 </div>
 
 ---
 
-## 📡 Neural Link Dashboard: Baseline Mode
+## 🚀 Project Overview
+Jaki-Netwood is an advanced simulation platform for **magnetotactic nanorobots (500nm)**. By leveraging AI-driven decisions, these micro-agents navigate complex blood vessel networks to target cancer cells based on pH levels, temperature, and proximity.
 
+### 🧠 AI Decision Logic
+As seen in the technical diagram above, our Neural Network processes:
+* **Inputs:** pH Levels, Temperature, and Distance.
+* **Outputs:** Navigation commands (STEER, STOP) and therapeutic action (RELEASE DRUG).
+
+---
+
+## 📡 Interactive Control Dashboards
+
+### 🛰️ Mission Feed: Sci-Fi Neon Mode
 <div align="center">
-  <img src="classic_ui.png" alt="Classic UI" width="100%" style="border: 2px solid #575757; border-radius: 10px;"/>
-  <br/>
-  <p><strong>Standard Waveform Analysis (Baseline Monitoring)</strong></p>
+  <img src="image_c08f94.png" alt="Neon Mode Interface" width="100%" style="border: 2px solid #00ffcc; border-radius: 10px;"/>
+</div>
+
+### 📊 System Diagnostics: Baseline Mode
+<div align="center">
+  <img src="image_c1008e.png" alt="Classic Mode Interface" width="100%" style="border: 2px solid #575757; border-radius: 10px;"/>
 </div>
 
 ---
 
-## 🚀 Active Mission Feed: Sci-Fi Neon Mode
+## 🛠️ Technological Stack
+* **AI & Deep Learning:** `PyTorch (torch)`
+* **3D Simulation:** `NVIDIA Isaac Sim` & `Omniverse`
+* **Real-time UI:** `Gradio`
+* **Data Science:** `NumPy`, `SciPy`, `Matplotlib`
+
+---
 
 <div align="center">
-  <img src="image_c08f94.png" alt="Neon Sci-Fi UI" width="100%" style="border: 2px solid #00ffcc; border-radius: 10px; box-shadow: 0 0 15px #00ffcc;"/>
-  <br/>
-  <p><strong>Target Acquisition & Bio-Pulse Frequency Sync (Cyberpunk Interface)</strong></p>
+  <p>🚀 <em>Empowering the future of targeted medicine through Artificial Intelligence.</em></p>
+  <p>© 2026 Jaki-Netwood Innovation Lab</p>
 </div>
