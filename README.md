@@ -1,7 +1,7 @@
 # 🧬 Jaki-Netwood: AI Nanomedicine OS v4.1
 
 <div align="center">
-  <img src="https://example.com/neon_header.png" alt="Neon Jaki Logo" width="300px"/>
+  <img src="https://classic_ui.png" alt="Neon Jaki Logo" width="300px"/>
   <br/>
   <p><strong>Quantum Biometric Interface - Deep Space Medical Division</strong></p>
   <p><em>Controlling and monitoring magnetic nanorobots using advanced AI sensor arrays.</em></p>
@@ -12,7 +12,7 @@
 ## ⚡ Interactive Neural Dashboard
 
 <div align="center">
-  <img src="https://example.com/gradio_neon_dashboard.png" alt="Neon Gradio UI Screenshot" width="100%" style="border: 2px solid #00ffcc; border-radius: 10px; box-shadow: 0 0 10px #00ffcc;"/>
+  <img src="https://example.com/classic_ui.png" alt="Neon Gradio UI Screenshot" width="100%" style="border: 2px solid #00ffcc; border-radius: 10px; box-shadow: 0 0 10px #00ffcc;"/>
   <br/>
   <p><strong>Neon Bio-Pulse Visualization & Control Panel</strong></p>
 </div>
