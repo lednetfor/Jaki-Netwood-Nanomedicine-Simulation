@@ -9,8 +9,7 @@
 ---
 
 ## 🛠️ System Architecture & Interfaces
-
-بما أن المحاكاة معقدة، صايبنا جوج واجهات تحكم (Control Panels) كيعطيو بيانات لحظية:
+:
 
 <table align="center">
   <tr>
