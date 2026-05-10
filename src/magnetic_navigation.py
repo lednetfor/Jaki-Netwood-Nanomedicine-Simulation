@@ -1,26 +1,36 @@
 import numpy as np
 
-class NanoBot:
-    def __init__(self, agent_id):
-        self.agent_id = agent_id
-        self.position = np.array([0.0, 0.0, 0.0]) # الإحداثيات في الدم
-        self.velocity = 0.05 # سرعة البكتيريا 500nm
+class NanoSimEngine:
+    def __init__(self):
+        # Viscosité du sang (approximative en Pascal-seconde)
+        self.blood_viscosity = 0.0035 
+        self.agent_pos = np.array([0.0, 0.0, 0.0])
         
-    def move_to_target(self, target_pos, magnetic_strength):
+    def calculate_magnetic_force(self, target_pos, field_intensity):
         """
-        محاكاة تحريك البكتيريا نحو الهدف باستعمال قوة المغناطيس
+        Calcule le vecteur de navigation vers la cible (ex: une tumeur)
         """
-        direction = target_pos - self.position
-        unit_direction = direction / np.linalg.norm(direction)
+        direction = target_pos - self.agent_pos
+        distance = np.linalg.norm(direction)
         
-        # تحريك البكتيريا بناءً على القوة المغناطيسية
-        self.position += unit_direction * self.velocity * magnetic_strength
-        print(f"Agent {self.agent_id} is moving to: {self.position}")
+        if distance < 0.1:
+            print("Cible atteinte ! Injection du médicament...")
+            return np.array([0, 0, 0])
+            
+        # Normalisation du vecteur de mouvement
+        unit_vector = direction / distance
+        
+        # La force magnétique doit compenser la traînée (drag force) du sang
+        velocity = (unit_vector * field_intensity) / self.blood_viscosity
+        self.agent_pos += velocity
+        
+        return self.agent_pos
 
-# تجربة المحاكاة
-jaki_bot = NanoBot(agent_id="MTB-01")
-target = np.array([10.0, 20.0, 5.0]) # مكان الورم أو المرض
+# --- Test de l'unité de contrôle Jaki-Netwood ---
+sim = NanoSimEngine()
+tumor_location = np.array([5.0, 10.0, 2.0])
 
-print("Starting Jaki-Netwood Navigation...")
-for step in range(5):
-    jaki_bot.move_to_target(target, magnetic_strength=1.5)
+print(f"Démarrage de la navigation vers : {tumor_location}")
+for second in range(5):
+    new_coords = sim.calculate_magnetic_force(tumor_location, field_intensity=0.0005)
+    print(f"Seconde {second}: Position actuelle {new_coords}")
