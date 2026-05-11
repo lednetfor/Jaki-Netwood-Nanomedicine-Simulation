@@ -8,9 +8,7 @@
 
 ---
 
-## 🛠️ System Interfaces (Control Panels)
-
-لقد قمنا بتطوير واجهتين للتحكم والمراقبة، تظهران هنا كأيقونات تقنية للمشروع:
+## 🛠️ System Interfaces (Control Panels):
 
 <table align="center">
   <tr>
