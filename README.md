@@ -37,3 +37,9 @@ Ce projet simule le comportement de nanorobots magnétotactiques guidés par une
 <div align="center">
   <p>© 2026 Jaki-Netwood Innovation Lab | Powered by Quantum AI</p>
 </div>
+### 🧠 Neural Network Logic (Deep Dive)
+The core of **Jaki-Netwood** is a sophisticated Neural Network designed to mimic biological decision-making:
+
+* **Input Layer (3 Neurons):** Processes real-time sensor data: `pH`, `Temperature`, and `Target Distance`.
+* **Hidden Layer:** An optimized layer for high-speed calculation of fluid dynamics and magnetic field response.
+* **Output Layer (3 Neurons):** Executes critical actions: `STEER` (navigation), `STOP` (position holding), and `RELEASE DRUG` (localized treatment).
