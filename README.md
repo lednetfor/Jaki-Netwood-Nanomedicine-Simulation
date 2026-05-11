@@ -5,7 +5,10 @@
   <br/>
   <h2 style="color: #00ffcc; font-family: monospace;">NEURAL NETWORK CONTROL SYSTEM</h2>
 </div>
+---
 
+### 🇫🇷 Résumé Technique
+Ce projet simule le comportement de nanorobots magnétotactiques guidés par une intelligence artificielle. En utilisant des réseaux de neurones, nous optimisons le ciblage des cellules tumorales en milieu vasculaire complexe, simulant des environnements réels via NVIDIA Isaac Sim.
 ---
 
 ## 🛠️ System Interfaces (Control Panels):
