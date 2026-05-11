@@ -1,7 +1,7 @@
 # 🧬 Jaki-Netwood: AI-Driven Nanorobot Simulation
 https://c4c463ee78d81563d6.gradio.live/
 <div align="center">
-  <img src="nanoMnetic.png" alt="Technical Overview" width="100%" style="border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);"/>
+  <img src="//src//nanoMnetic.png" alt="Technical Overview" width="100%" style="border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);"/>
   <br/>
   <h2 style="color: #00ffcc; font-family: monospace;">NEURAL NETWORK CONTROL SYSTEM</h2>
 </div>
